@@ -1,12 +1,12 @@
 import json 
 import numpy as np
 from tensorflow import keras
-
 import colorama 
-colorama.init()
 from colorama import Fore, Style
-
 import pickle
+
+colorama.init()
+
 
 with open("intents.json") as file:
     data = json.load(file)
