@@ -13,7 +13,7 @@
     },
     {"tag": "about",
      "patterns": ["Who are you?", "What are you?", "Who you are?" ],
-     "responses": ["I.m Drew, your bot assistant", "I'm Drew, an Artificial Intelligent bot"]
+     "responses": ["I'm Drew, your bot assistant", "I'm Drew, an Artificial Intelligent bot"]
     },
     {"tag": "name",
     "patterns": ["what is your name", "what should I call you", "whats your name?"],
@@ -33,7 +33,11 @@
     },
     {"tag": "1Mentor",
     "patterns": ["Who is the CEO of 1Mentor", "1Mentor's CEO", "Who is 1Mentor"],
-    "responses": ["1Mentor is a company based on Canada whose CEO is Esteban Veintimilla", "1Mentor's CEO is Esteban Veintimilla"]
+    "responses": ["1Mentor is a company based on Canada whose CEO is Esteban Veintimilla", "1Mentor's CEO is Esteban Veintimilla", " Use AI to understand industry’s ever-changing demands and empower students to outpace future disruptions.We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance.We equip key decision-makers  with industry information to better prepare students.Empower students with information helping them take an active role in pursuing their career path.We guide students with data-driven recommendations to prepare for their next career move.We provide students with real-time insights on the skills they need and connect them with skill-based courses to meet their career objectives.We equip key decision-makers with quality tools to understand industry’s rapidly-changing needs and prepare students for the future of work.Contact us and start preparing your learners for tomorrow’s work.Get in touch and let us know how we can helpThe Tannery, 151 Charles St W Suite# 199, Kitchener, ON N2G 1H6, Canada.© 2023 1Mentor Ltd. All Rights Reserved."]
+    },
+    {"tag": "navigate",
+    "patterns": ["I'm wondering if I can navigate in this webpage", "Information about 1Mentor", "How could I stay in touch with 1Mentor"],
+    "responses": ["Links are: \n 1. Contact \n 2. 1Mentor Vision \n 3. Partners"]
     }
 ]
 }
