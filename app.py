@@ -58,7 +58,9 @@ def chat(inp, model, tokenizer, lbl_encoder, max_len=20):
                  response = "Andy"
 
             elif i['tag'] == "navigate":
-                response = '<a href="https://www.1mentor.io"> 1. Home</a>'\
+                response = "You can navigate on the following links:"\
+                        +'<div></div>'\
+                        +'<a href="https://www.1mentor.io"> 1. Home</a>'\
                         +'<div></div>'\
                         +'<a href="https://www.1mentor.io/higher-ed"> 2. Higher Education</a>'\
                         +'<div></div>'\
@@ -94,7 +96,7 @@ def get_bot_response():
                               lbl_encoder, 
                               max_len=20)
     
-    return (generated_response)
+    return generated_response
 
 # Run the app
 if __name__ == '__main__':
