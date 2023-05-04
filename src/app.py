@@ -1,4 +1,12 @@
-# Import the required packages
+"""
+1MENTOR Inc., 2023.
+
+Developed by: ML Department.
+"""
+
+# Import the required packages and dependencies
+
+from waitress import serve
 from flask import Flask, render_template, request
 import json 
 import numpy as np
@@ -114,4 +122,5 @@ def get_bot_response():
 
 # Run the app
 if __name__ == '__main__':
+    serve(app, host="0.0.0.0", port=8080)
     app.run(debug=True)
