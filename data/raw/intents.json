@@ -32,8 +32,8 @@
     "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
     },
     {"tag": "1Mentor",
-    "patterns": ["Who is the CEO of 1Mentor", "1Mentor's CEO", "Who is 1Mentor", "Who is the CEO?"],
-    "responses": ["1Mentor is a company based on Canada, whose CEO is Esteban Veintimilla","Esteban Veintimilla is the 1Mentor's CEO"]
+    "patterns": ["Who is the CEO of 1Mentor", "1Mentor's CEO", "Who is 1Mentor", "Who is the CEO?", "Who's the 1Mentor's CEO"],
+    "responses": ["1Mentor is a company established in Canada, whose CEO is Esteban Veintimilla", "Esteban Veintimilla is the 1Mentor's CEO"]
     },
     {"tag": "navigate",
     "patterns": ["I was wondering if I can navigate in this webpage", "Can you provide me information about 1Mentor", "How to navigate in this webpage?", "how to navigate in this website"],
@@ -44,8 +44,8 @@
     "responses": ["Get in touch and let us know how we can help. \nTelf. XXXXXXX , \ne-mail: xxxxxxxx@1mentor.io"]
     },
     {"tag": "address",
-    "patterns": ["Where is 1Mentor located", "What is the address?", "What is the 1Mentor's address?", "What is the address of 1Mentor?"],
-    "responses": ["1Mentor's address is The Tannery, 151 Charles St W Suite# 199, Kitchener, ON N2G 1H6, Canada."]
+    "patterns": ["Where is 1Mentor located", "Where is 1Mentor based or established","What is the address?", "What is the 1Mentor's address?", "What is the address of 1Mentor?"],
+    "responses": ["1Mentor's address: The Tannery, 151 Charles St W Suite# 199, Kitchener, ON N2G 1H6, Canada."]
     },
     {"tag": "_out_of_the_scope_",
     "patterns": ["fuck", "wtf","what the hell", "djaks","jadlask","owdalsk"],
