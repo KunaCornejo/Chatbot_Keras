@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Is there anybody out there?"],
      "responses": ["Hello", "Hi", "Hi there"]
     },
     {"tag": "goodbye",
@@ -12,7 +12,7 @@
      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
     },
     {"tag": "about",
-     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "patterns": ["Who are you?", "What are you?", "Who you are?", "What do you do?" ],
      "responses": ["I'm Drew, your bot assistant", "I'm Drew, an Artificial Intelligent bot"]
     },
     {"tag": "name",
@@ -32,12 +32,44 @@
     "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
     },
     {"tag": "1Mentor",
-    "patterns": ["Who is the CEO of 1Mentor", "1Mentor's CEO", "Who is 1Mentor"],
-    "responses": ["1Mentor is a company based on Canada whose CEO is Esteban Veintimilla", "1Mentor's CEO is Esteban Veintimilla", " Use AI to understand industry’s ever-changing demands and empower students to outpace future disruptions.We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance.We equip key decision-makers  with industry information to better prepare students.Empower students with information helping them take an active role in pursuing their career path.We guide students with data-driven recommendations to prepare for their next career move.We provide students with real-time insights on the skills they need and connect them with skill-based courses to meet their career objectives.We equip key decision-makers with quality tools to understand industry’s rapidly-changing needs and prepare students for the future of work.Contact us and start preparing your learners for tomorrow’s work.Get in touch and let us know how we can helpThe Tannery, 151 Charles St W Suite# 199, Kitchener, ON N2G 1H6, Canada.© 2023 1Mentor Ltd. All Rights Reserved."]
+    "patterns": ["Who is the CEO of 1Mentor", "1Mentor's CEO", "Who is 1Mentor", "Who is the CEO?"],
+    "responses": ["1Mentor is a company based on Canada, whose CEO is Esteban Veintimilla","Esteban Veintimilla is the 1Mentor's CEO"]
     },
     {"tag": "navigate",
-    "patterns": ["I'm wondering if I can navigate in this webpage", "Information about 1Mentor", "How could I stay in touch with 1Mentor"],
+    "patterns": ["I was wondering if I can navigate in this webpage", "Can you provide me information about 1Mentor", "How to navigate in this webpage?", "how to navigate in this website"],
     "responses": ["Links are: \n 1. Contact \n 2. 1Mentor Vision \n 3. Partners"]
+    },
+    {"tag": "contact",
+    "patterns": ["How to get in touch with you?", "How could I stay in contact with 1Mentor", "How to contact them?"],
+    "responses": ["Get in touch and let us know how we can help. \nTelf. XXXXXXX , \ne-mail: xxxxxxxx@1mentor.io"]
+    },
+    {"tag": "address",
+    "patterns": ["Where is 1Mentor located", "What is the address?", "What is the 1Mentor's address?", "What is the address of 1Mentor?"],
+    "responses": ["1Mentor's address is The Tannery, 151 Charles St W Suite# 199, Kitchener, ON N2G 1H6, Canada."]
+    },
+    {"tag": "_out_of_the_scope_",
+    "patterns": ["fuck", "wtf","what the hell", "djaks","jadlask","owdalsk"],
+    "responses": ["I'm a bot, tell me how can assist you", "I'm just a bot, I don't understand it","Can you repeat the question?"]
+    },
+    {"tag": "job",
+    "patterns": ["What is 1Mentor", "What does 1Mentor do?", "What is the scope?", "What is the aim?", "What do they do?", "What is the scope of 1Mentor?", "What is the aim of 1Mentor?", "What do they do?"],
+    "responses": ["1Mentor's technology uses AI to understand industry’s ever-changing demands and empower students to outpace future disruptions. We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance. Also, 1Mentor equips key decision-makers  with industry information to better prepare students.", "1Mentor empowers students with information helping them take an active role in pursuing their career path.We guide students with data-driven recommendations to prepare for their next career move.", "1Mentor provides students with real-time insights on the skills they need and connect them with skill-based courses to meet their career objectives.We equip key decision-makers with quality tools to understand industry’s rapidly-changing needs and prepare students for the future of work.Contact us and start preparing your learners for tomorrow’s work."]
+    },
+    {"tag": "positive_mood",
+    "patterns": ["How are you?", "How do you feel?", "Are you ok?"],
+    "responses": ["Of course, I'm here to help you", "I'm ok and ready to assist you", "For sure, I'm happy to assist you today"]
+    },
+    {"tag": "negative_mood",
+    "patterns": ["Are you sick today?", "Are you tired?", "You are stupid", "Are you stupid?", "You are a dumbass", "Are you a dumbass?", "Are you silly?", "Are you naive"],
+    "responses": ["I'm just a bot, tell me how can assist you", "I'm just a bot, it is a pleasure to help you", "Can you repeat the question?", "I'm just a bot but you hurt my feelings =(..., Can you repeat the question?"]
+    },
+    {"tag": "self-appointment",
+    "patterns": ["Who I am?", "What is my name?", "My name is", "Do you know my name?"],
+    "responses": ["Your name here:"]
+    },
+    {"tag": "creation",
+    "patterns": ["Who built you?", "who designed you?", "How are you built?", "who programmed you?"],
+    "responses": ["My friends of ML Department at 1Mentor, they are amazing!"]
     }
 ]
 }

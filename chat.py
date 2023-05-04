@@ -43,8 +43,16 @@ def chat():
 
         for i in data['intents']:
             if i['tag'] == tag:
-                print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL, 
-                      np.random.choice(i['responses']))
+                if i['tag'] == "self-appointment":
+                    print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL, "Andy")
+                elif i['tag'] == "navigate":
+                    print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL, 
+                          '<a href="https://www.1mentor.io/higher-ed"> 1. Higher Education</a>')
+                else:
+                    print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL, 
+                          np.random.choice(i['responses']))
+            
+#https://www.1mentor.io/higher-ed
 
 
 print(Fore.YELLOW + "Start messaging with the bot (type quit to stop)!" + \

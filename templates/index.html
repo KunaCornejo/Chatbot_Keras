@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI ChatBot API for 1Mentor Inc. </title>
+  </head>
+  <body>
+    <h1>Welcome to my API for a Customized AI-Chatbot</h1>
+    <p>First interface: AI Chatbot for 1Mentor Inc.</p>
+  </body>
+  <form>
+    <b style='color:blue !important;'>User: </b><input type="text" id="user-query" name="user-query">
+    <button type="button" onclick="sendQuery()">Send</button>
+  </form>
+    <b style='color:orange !important;'>ChatBot: </b><b id="bot-response" ></b>
+  
+  <script>
+    function sendQuery() {
+      var userQuery = document.getElementById("user-query").value;
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/get-response?query=" + userQuery, true);
+      xhr.onload = function() {
+        var botResponse = xhr.responseText;
+        document.getElementById("bot-response").innerHTML = botResponse;
+      };
+      xhr.send();
+    }
+  </script>
+  
+</html>
+
+
