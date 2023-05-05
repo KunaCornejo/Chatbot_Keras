@@ -52,7 +52,7 @@
     "responses": ["I'm a bot, tell me how can assist you", "I'm just a bot, I don't understand it","Can you repeat the question?"]
     },
     {"tag": "job",
-    "patterns": ["What is 1Mentor", "What does 1Mentor do?", "What is the scope?", "What is the aim?", "What do they do?", "What is the scope of 1Mentor?", "What is the aim of 1Mentor?", "What do they do?"],
+    "patterns": ["What Can I do with 1Mentor?","What is 1Mentor", "What does 1Mentor do?", "What is the scope?", "What is the aim?", "What do they do?", "What is the scope of 1Mentor?", "What is the aim of 1Mentor?", "What do they do?"],
     "responses": ["1Mentor's technology uses AI to understand industry’s ever-changing demands and empower students to outpace future disruptions. We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance. Also, 1Mentor equips key decision-makers  with industry information to better prepare students.", "1Mentor empowers students with information helping them take an active role in pursuing their career path.We guide students with data-driven recommendations to prepare for their next career move.", "1Mentor provides students with real-time insights on the skills they need and connect them with skill-based courses to meet their career objectives.We equip key decision-makers with quality tools to understand industry’s rapidly-changing needs and prepare students for the future of work.Contact us and start preparing your learners for tomorrow’s work."]
     },
     {"tag": "positive_mood",
