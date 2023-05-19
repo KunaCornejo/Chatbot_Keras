@@ -1,0 +1,648 @@
+﻿{
+  "qna": [
+    {
+      "a": "Hi, tell me how can assist you",
+      "t": "Greetings",
+      "alt": {
+        "markdown": "Hello, how can I support you?"
+      },
+      "type": "qna",
+      "qid": "Greetings.001",
+      "q": [
+        "Hi",
+        "Hey",
+        "is anyone there?",
+        "hello",
+        "Is there anybody out there"
+      ]
+    },
+    {
+      "a": "Hi there",
+      "t": "Greetings",
+      "alt": {
+        "markdown": "Hello"
+      },
+      "type": "qna",
+      "qid": "Greetings.002",
+      "q": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay",
+        "Is there anybody out there?"
+      ]
+    },
+    {
+      "a": "See you later",
+      "t": "Goodbye",
+      "type": "qna",
+      "qid": "Goodbye.001",
+      "q": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ]
+    },
+    {
+      "a": "Have a nice day",
+      "t": "Goodbye",
+      "type": "qna",
+      "qid": "Goodbye.002",
+      "q": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ]
+    },
+    {
+      "a": "Bye! Come back again",
+      "t": "Goodbye",
+      "type": "qna",
+      "qid": "Goodbye.003",
+      "q": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ]
+    },
+    {
+      "a": "Happy to help!",
+      "t": "Thanks",
+      "type": "qna",
+      "qid": "Thanks.001",
+      "q": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ]
+    },
+    {
+      "a": "Any time!",
+      "t": "Thanks",
+      "type": "qna",
+      "qid": "Thanks.002",
+      "q": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ]
+    },
+    {
+      "a": "My Pleasure",
+      "t": "Thanks",
+      "type": "qna",
+      "qid": "Thanks.003",
+      "q": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ]
+    },
+    {
+      "a": "You're the most welcome",
+      "t": "Thanks",
+      "type": "qna",
+      "qid": "Thanks.004",
+      "q": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ]
+    },
+    {
+      "a": "I'm your bot assistant",
+      "t": "About",
+      "type": "qna",
+      "qid": "About.001",
+      "q": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?",
+        "What do you do?"
+      ]
+    },
+    {
+      "a": "I'm an Artificial Intelligent bot",
+      "t": "About",
+      "type": "qna",
+      "qid": "About.002",
+      "q": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?",
+        "What do you do?"
+      ]
+    },
+    {
+      "a": "You can call me Drew.",
+      "t": "Name",
+      "type": "qna",
+      "qid": "Name.001",
+      "q": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ]
+    },
+    {
+      "a": "I'm Drew!",
+      "t": "Name",
+      "type": "qna",
+      "qid": "Name.002",
+      "q": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ]
+    },
+    {
+      "a": "Just call me as Drew",
+      "t": "Name",
+      "type": "qna",
+      "qid": "Name.003",
+      "q": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ]
+    },
+    {
+      "a": "Tell me how can assist you",
+      "t": "Help",
+      "type": "qna",
+      "qid": "Help.001",
+      "q": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ]
+    },
+    {
+      "a": "Recommended Occupations",
+      "r": {
+        "buttons": [
+          {
+            "text": "Return Platform Info",
+            "value": "Return to the Top"
+          }
+        ],
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/recommended_occupations_based_on_majors.png",
+        "title": "RecommendedOccupations"
+      },
+      "t": "Platform",
+      "alt": {
+        "markdown": "# **Recommended Occupations**\n\n**link:** Students often aren't aware of all the career options they have upon graduation, especially occupations that are not directly related to their major.\n\n**Feature:**  These carrousels recommend occupations that fit the student's profile. Each card contains:\n- Occupation name\n- Skill match\n\nClicking on a card opens the _Occupation Modal_.\n\nThe criteria for recommendations are the following:\n- \"Recommended Occupations based on your skills\"\n   - Occupations the student has the highest skill match with\n- \"Recommended Occupations based on your major\"\n   - Among the occupations linked to the student's major, the occupations with the highest skill match\n\nIf a student has more than one major, an additional carousel will appear.\n\n**Benefit:** Students can see alternative careers to explore and get a better idea of what occupations they can pursue."
+      },
+      "type": "qna",
+      "qid": "RecommendedOccupations.001",
+      "q": [
+        "Display the Recommended Occupations example"
+      ]
+    },
+    {
+      "a": "Learn A Skill",
+      "r": {
+        "buttons": [
+          {
+            "text": "Return Platform Info",
+            "value": "Return to the Top"
+          }
+        ],
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/learn_skill.png",
+        "title": "LearnSkill"
+      },
+      "t": "Platform",
+      "alt": {
+        "markdown": "# **Learn A Skill**\n\n**link:** Students often need help finding courses to begin learning their upskilling objectives.\n\n**Feature:** This tile shows them the top course recommendation (the course that appears first on the Course Recommendations list) for each of the skills the user has listed in the \"To Learn\" column of their kanban board. These recommendations are shown in the form of a carousel of course cards. When clicked, those cards link the user to the corresponding course. If a course is not available for a skill on the kanban, it is not represented on this tile. Additionally, there is a link to the kanban board so they can view and edit their upskilling objectives.\n\n**Benefits:** Students can see course recommendations on their home dashboard and make faster upskilling decisions by starting to learn one of their objectives."
+      },
+      "type": "qna",
+      "qid": "LearnSkill.001",
+      "q": [
+        "Display the Learn a Skill example"
+      ]
+    },
+    {
+      "r": {
+        "buttons": [
+          {
+            "text": "1. Home Dashboard",
+            "value": "Display the Home Dashboard example"
+          },
+          {
+            "text": "2. Top Insights",
+            "value": "Display the Top Insights example"
+          },
+          {
+            "text": "3. Learn a Skill",
+            "value": "Display the Learn-a-Skill example"
+          },
+          {
+            "text": "4. Your Path",
+            "value": "Display the Your Path example"
+          },
+          {
+            "text": "5. Recommended Skills",
+            "value": "Display the Recommended Skills example"
+          },
+          {
+            "text": "6. Recommended Occupations",
+            "value": "Display the Recommended Occupations example"
+          }
+        ],
+        "title": "Platform"
+      },
+      "t": "Platform",
+      "alt": {
+        "markdown": "The **1Mentor Platform** consists of the following stages:"
+      },
+      "type": "qna",
+      "qid": "Platform.001",
+      "q": [
+        "How is the 1Mentor's Platform",
+        "How to check the Dashboard of 1Mentor",
+        "How to interact with the 1Mentor Platform",
+        "Return to the Top"
+      ]
+    },
+    {
+      "a": "Top Insights",
+      "r": {
+        "buttons": [
+          {
+            "text": "Return Platform Info",
+            "value": "Return to the Top"
+          }
+        ],
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/top_insights.png",
+        "title": "Top_Insights"
+      },
+      "t": "Platform",
+      "alt": {
+        "markdown": "# **TOP INSIGHTS**\n\n**link:** Industry is evolving faster than ever before and keeping track of the latest trends isn’t easy when dealing with a diverse set of careers.\n\n**feature:** This card showcases key insights gathered from the data we have available, and information inputted by students in their profiles. This information is related to the user's interests, major, or recommendations.\n\n**benefits:** Through these insights, users can stay updated on the most important labor market developments in a matter of seconds."
+      },
+      "type": "qna",
+      "qid": "Top_Insights.001",
+      "q": [
+        "Display the Top Insights example"
+      ]
+    },
+    {
+      "a": "Recommended Skills",
+      "r": {
+        "buttons": [
+          {
+            "text": "Return Platform Info",
+            "value": "Return to the Top"
+          }
+        ],
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/recommeded_skills.png",
+        "title": "RecommendedSkills"
+      },
+      "t": "Platform",
+      "alt": {
+        "markdown": "# **Recommended Skills**\n\n**link:** It is challenging for students to identify and prioritize which skills to learn in preparation for their future career, or in accordance to their goals. \n\n**Feature:**  These cards show the 4 skills that our system recommends the user. Each card contains the following information:\n- Skill type\n- Skill name\nClicking the card opens the corresponding skills modal.\n\n**Benefit:** Students can see the skills that will best help them achieve their career objectives."
+      },
+      "type": "qna",
+      "qid": "RecommendedSkills.001",
+      "q": [
+        "Display the Recommended Skills example"
+      ]
+    },
+    {
+      "a": "1Mentor's technology uses AI to understand industry’s ever-changing demands and empower students to outpace future disruptions. We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance. Also, 1Mentor equips key decision-makers  with industry information to better prepare students. 1Mentor empowers students with information helping them take an active role in pursuing their career path.We guide students with data-driven recommendations to prepare for their next career move. 1Mentor provides students with real-time insights on the skills they need and connect them with skill-based courses to meet their career objectives.We equip key decision-makers with quality tools to understand industry’s rapidly-changing needs and prepare students for the future of work.Contact us and start preparing your learners for tomorrow’s work.",
+      "r": {
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/1M.jpg",
+        "title": "1Mentor"
+      },
+      "alt": {
+        "markdown": "# **1Mentor Inc**  [1 Mentor](https://images-4-chatbot.s3.amazonaws.com/1M.jpg)\n\n1Mentor's technology uses **AI** to understand industry’s ever-changing demands and empower students to outpace future disruptions. We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance. Also, **1Mentor equips key decision-makers**  with industry information to better prepare students."
+      },
+      "type": "qna",
+      "qid": "QnABot.001",
+      "q": [
+        "What is 1Mentor?",
+        "What does 1Mentor do?",
+        "What Can I do with 1Mentor?",
+        "What is the scope?",
+        "What is the aim?",
+        "What do they do?",
+        "What is the scope of 1Mentor?",
+        "What is the aim of 1Mentor?",
+        "What do they do?"
+      ]
+    },
+    {
+      "a": "Your Path",
+      "r": {
+        "buttons": [
+          {
+            "text": "Return Platform Info",
+            "value": "Return to the Top"
+          }
+        ],
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/your_path.png",
+        "title": "YourPath"
+      },
+      "t": "Platform",
+      "alt": {
+        "markdown": "# **Your Path**\n\n**link:** Students are interested in tracking multiple occupations of interest and how their skill set compares with the requirements of these occupations.\n\n**Feature:**  In the home page, this tile shows an overview of the student's skill match relative to their registered occupations of interest. The \"view more\" button takes the user to Occupations / My Objectives.\n\n**Benefit:** Students can monitor their progress towards their career goals at a glance."
+      },
+      "type": "qna",
+      "qid": "YourPath.001",
+      "q": [
+        "Display the Your Path example"
+      ]
+    },
+    {
+      "a": "Home Dashboard",
+      "r": {
+        "buttons": [
+          {
+            "text": "Return Platform Info",
+            "value": "Return to the Top"
+          }
+        ],
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/home_dashboard.png",
+        "title": "HomeDashboard"
+      },
+      "t": "Platform",
+      "alt": {
+        "markdown": "# **Home Dashboard**"
+      },
+      "type": "qna",
+      "qid": "HomeDashboard.001",
+      "q": [
+        "Display the Home Dashboard example"
+      ]
+    },
+    {
+      "a": "Tell me your problem to assist you",
+      "t": "Help",
+      "type": "qna",
+      "qid": "Help.002",
+      "q": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ]
+    },
+    {
+      "a": "Yes Sure, How can I support you",
+      "t": "Help",
+      "type": "qna",
+      "qid": "Help.003",
+      "q": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ]
+    },
+    {
+      "a": "You can just easily create a new account from our web site",
+      "t": "CreateAccount",
+      "type": "qna",
+      "qid": "CreateAccount.001",
+      "q": [
+        "I need to create a new account",
+        "how to open a new account",
+        "I want to create an account",
+        "can you create an account for me",
+        "how to open a new account"
+      ]
+    },
+    {
+      "a": "Just go to our web site and follow the guidelines to create a new account",
+      "t": "CreateAccount",
+      "type": "qna",
+      "qid": "CreateAccount.002",
+      "q": [
+        "I need to create a new account",
+        "how to open a new account",
+        "I want to create an account",
+        "can you create an account for me",
+        "how to open a new account"
+      ]
+    },
+    {
+      "a": "Please provide us your complaint in order to assist you",
+      "t": "Complaint",
+      "type": "qna",
+      "qid": "Compliant.001",
+      "q": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ]
+    },
+    {
+      "a": "Please mention your complaint, we will reach you and sorry for any inconvenience caused",
+      "t": "Complaint",
+      "type": "qna",
+      "qid": "Compliant.002",
+      "q": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ]
+    },
+    {
+      "a": "Esteban Veintimilla is the 1Mentor's CEO",
+      "t": "Organization",
+      "type": "qna",
+      "qid": "Organization.001",
+      "q": [
+        "Who is the CEO of 1Mentor",
+        "1Mentor's CEO",
+        "Who is 1Mentor",
+        "Who is the CEO?",
+        "Who's the 1Mentor's CEO"
+      ]
+    },
+    {
+      "a": "Diego Robles is the 1Mentor's CTO",
+      "t": "Organization",
+      "type": "qna",
+      "qid": "Organization.002",
+      "q": [
+        "Who is the CTO of 1Mentor",
+        "1Mentor's CTO",
+        "Who is 1Mentor",
+        "Who is the CTO?",
+        "Who's the 1Mentor's CTO"
+      ]
+    },
+    {
+      "a": "The following routemap is to navigate in this webpage,",
+      "t": "Navigation",
+      "type": "qna",
+      "qid": "Navigation.001",
+      "q": [
+        "I was wondering if I can navigate in this webpage",
+        "Can you provide me information about 1Mentor",
+        "How to navigate in this webpage?",
+        "how to navigate in this website",
+        "Navigate in this website/webpage",
+        "Navigation in this website/webpage"
+      ]
+    },
+    {
+      "a": "1Mentor's address: The Tannery, 151 Charles St W Suite# 199, Kitchener, ON N2G 1H6, Canada.",
+      "t": "Address",
+      "type": "qna",
+      "qid": "Address.001",
+      "q": [
+        "Where is 1Mentor located",
+        "Where is 1Mentor based or established",
+        "What is the address?",
+        "What is the 1Mentor's address?",
+        "What is the address of 1Mentor?"
+      ]
+    },
+    {
+      "a": "I don't understand it, Can you repeat the question?",
+      "t": "_out_of_the_scope_",
+      "type": "qna",
+      "qid": "_out_of_the_scope_.001",
+      "q": [
+        "fuck",
+        "wtf",
+        "what the hell"
+      ]
+    },
+    {
+      "a": "Of course, I'm here to help you",
+      "t": "Positive_Mood",
+      "type": "qna",
+      "qid": "Positive_Mood.001",
+      "q": [
+        "How are you?",
+        "How do you feel?",
+        "Are you ok?"
+      ]
+    },
+    {
+      "a": "I'm ok and ready to assist you",
+      "t": "Positive_Mood",
+      "type": "qna",
+      "qid": "Positive_Mood.002",
+      "q": [
+        "How are you?",
+        "How do you feel?",
+        "Are you ok?"
+      ]
+    },
+    {
+      "a": "For sure, I'm happy to assist you today",
+      "t": "Positive_Mood",
+      "type": "qna",
+      "qid": "Positive_Mood.003",
+      "q": [
+        "How are you?",
+        "How do you feel?",
+        "Are you ok?"
+      ]
+    },
+    {
+      "a": "I'm just a bot, tell me how can assist you or repeat the question",
+      "t": "Negative_Mood",
+      "type": "qna",
+      "qid": "Negative_Mood.001",
+      "q": [
+        "Are you sick today?",
+        "Are you tired?",
+        "You are stupid",
+        "Are you stupid?",
+        "You are a dumbass",
+        "Are you a dumbass?",
+        "Are you silly?",
+        "Are you naive"
+      ]
+    },
+    {
+      "a": "I'm just a bot but you hurt my feelings =(..., Can you repeat the question?",
+      "t": "Negative_Mood",
+      "type": "qna",
+      "qid": "Negative_Mood.002",
+      "q": [
+        "Are you sick today?",
+        "Are you tired?",
+        "You are stupid",
+        "Are you stupid?",
+        "You are a dumbass",
+        "Are you a dumbass?",
+        "Are you silly?",
+        "Are you naive"
+      ]
+    },
+    {
+      "a": "My friends of ML Department at 1Mentor, they are amazing!",
+      "t": "Creation",
+      "type": "qna",
+      "qid": "Creation.001",
+      "q": [
+        "Who built you?",
+        "who designed you?",
+        "How are you built?",
+        "who programmed you?"
+      ]
+    },
+    {
+      "a": "Get in touch and let us know how we can help:",
+      "r": {
+        "title": "-"
+      },
+      "t": "Contact",
+      "alt": {
+        "markdown": "Get in touch and let us know how we can help:\n\n- **[1Mentor Contact](https://www.1mentor.io/higher-ed#Form-higher-ed)**\n- **[Instagram](https://www.instagram.com/1mentor.inc/?hl=en)**\n- **[Twitter](https://twitter.com/1mentorinc?lang=en)**\n- **[LinkedIn](https://www.linkedin.com/company/1mentor?original_referer=https%3A%2F%2Fwww.1mentor.io%2F)**"
+      },
+      "type": "qna",
+      "qid": "Contact.001",
+      "q": [
+        "How to get in touch with you?",
+        "How could I stay in contact with 1Mentor",
+        "How to contact them?"
+      ]
+    },
+    {
+      "a": "1Mentor's technology uses **AI** to understand industry’s ever-changing demands and empower students to outpace future disruptions. We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance. Also, **1Mentor** equips key decision-makers  with industry information to better prepare students. 1Mentor empowers students with information helping them take an active role in pursuing their career path. \n\nWe guide students with data-driven recommendations to prepare for their next career move. **1Mentor** provides students with real-time insights on the skills they need and connect them with skill-based courses to meet their career objectives.We equip key decision-makers with quality tools to understand industry’s rapidly-changing needs and prepare students for the future of work.",
+      "r": {
+        "imageUrl": "https://images-4-chatbot.s3.amazonaws.com/1M_Advisor.jpg",
+        "title": "job"
+      },
+      "t": "Job",
+      "alt": {
+        "markdown": "# **1Mentor Inc.**\n\n1Mentor's technology uses **AI** to understand industry’s ever-changing demands and empower students to outpace future disruptions. We equip institutions with data-driven recommendations on skills, tools and knowledge required by industry to enhance programs and student career guidance. Also, **1Mentor** equips key decision-makers  with industry information to better prepare students. **1Mentor** empowers students with information helping them take an active role in pursuing their career path. \n\nFor further information you can check the 1Mentor's [website](https://www.1mentor.io)"
+      },
+      "type": "qna",
+      "qid": "Job.001",
+      "q": [
+        "What Can I do with 1Mentor?",
+        "What is 1Mentor",
+        "What does 1Mentor do?",
+        "What is the scope?",
+        "What is the aim?",
+        "What do they do?",
+        "What is the scope of 1Mentor?",
+        "What is the aim of 1Mentor?",
+        "What do they do?"
+      ]
+    }
+  ]
+}
